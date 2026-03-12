@@ -12,6 +12,7 @@ body {
 	height:100%;
 	width:100%;
 	margin:0;
+
 }
 .ie body {
 	filter: dropshadow(color=#000000, offx=0, offy=1);	
@@ -118,17 +119,22 @@ background-position: -331px 0px;
     text-align: center;
 }
 
-/* Icons ko box ke center mein lane ke liye */
-.whatsappIcon i, .instagramIcon i {
+
+ .instagramIcon i {
     font-size: 20px;
-    line-height: 34px; /* Box ki height ke barabar */
-    color: #000; /* Logo color */
+    line-height: 34px; 
+    color: #000; 
+	background: url('https://cdn-icons-png.flaticon.com/512/174/174855.png') no-repeat center;
     display: block;
 }
+.whatsappIcon i{
+width: 22px;
+    height: 22px;
+background: url('https://cdn-icons-png.flaticon.com/512/733/733585.png') no-repeat center;
+}
 
-/* Hover karne par colors (Optional) */
-.whatsappIcon:hover i { color: #25D366; }
-.instagramIcon:hover i { color: #E4405F; }
+.whatsappIcon:hover, .instagramIcon:hover {
+    background-color: rgba(255, 255, 255, 0.8) !important;
 #Content h2 {
 margin: 0px 0px 65px 0px;
 padding: 0px;
