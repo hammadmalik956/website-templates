@@ -5,11 +5,10 @@ Note: Please use our back link in your site
 $( function() {
 	$.vegas( 'slideshow', {
 		delay: 8000,
-		backgrounds: [
-			{ src: 'images/background4.jpg', fade: 4000 },
-			{ src: 'images/background3.jpg', fade: 4000 },
-			{ src: 'images/background2.jpg', fade: 4000 },
-			{ src: 'images/background1.jpg', fade: 4000 }
+	backgrounds:[
+    { src:'images/bd.png', fade:1000 },      
+    { src:'images/bg.png', fade:1000 },      
+    { src:'images/background1.jpg', fade:1000 }
 		]
 	} )( 'overlay' );
 	
