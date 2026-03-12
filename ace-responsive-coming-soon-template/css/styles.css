@@ -113,10 +113,22 @@ background-position: -245px 0px;
 .pintrestIcon{
 background-position: -331px 0px;
 }
-.whatsappIcon { color: #25D366; }
-.instagramIcon i {
-    color: #E4405F;
+.whatsappIcon, .instagramIcon {
+    background: rgba(255, 255, 255, 0.44) !important;
+    text-align: center;
 }
+
+/* Icons ko box ke center mein lane ke liye */
+.whatsappIcon i, .instagramIcon i {
+    font-size: 20px;
+    line-height: 34px; /* Box ki height ke barabar */
+    color: #000; /* Logo color */
+    display: block;
+}
+
+/* Hover karne par colors (Optional) */
+.whatsappIcon:hover i { color: #25D366; }
+.instagramIcon:hover i { color: #E4405F; }
 #Content h2 {
 margin: 0px 0px 65px 0px;
 padding: 0px;
