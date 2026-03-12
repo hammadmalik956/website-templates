@@ -102,7 +102,7 @@ height:34px;
 display: inline-block;
 }
 .twitterIcon, .facebookIcon, .linkedInIcon, .pintrestIcon, .whatsappIcon, .instagramIcon{
-background: url('../images/social-icons.png') -74px 0px;
+background: url('../images/social-icons.png/whastapp.png.webp/insta.png.webp') -74px 0px;
 }
 .facebookIcon{
 background-position: 10px 0px;
@@ -113,6 +113,7 @@ background-position: -245px 0px;
 .pintrestIcon{
 background-position: -331px 0px;
 }
+
 .whatsappIcon 
 { line-height: 40px;
 	text-align: center;
