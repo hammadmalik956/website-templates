@@ -101,7 +101,7 @@ width:34px;
 height:34px; 
 display: inline-block;
 }
-.twitterIcon, .facebookIcon, .linkedInIcon, .pintrestIcon{
+.twitterIcon, .facebookIcon, .linkedInIcon, .pintrestIcon, .whatsappIcon, .instagramIcon{
 background: url('../images/social-icons.png') -74px 0px;
 }
 .facebookIcon{
