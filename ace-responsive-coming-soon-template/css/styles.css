@@ -102,7 +102,7 @@ height:34px;
 display: inline-block;
 }
 .twitterIcon, .facebookIcon, .linkedInIcon, .pintrestIcon, .whatsappIcon, .instagramIcon{
-background: url('../images/social-icons.png/whastapp.png.webp/insta.png.webp') -74px 0px;
+background: url('../images/social-icons.png') -74px 0px;
 }
 .facebookIcon{
 background-position: 10px 0px;
@@ -113,7 +113,15 @@ background-position: -245px 0px;
 .pintrestIcon{
 background-position: -331px 0px;
 }
+.whatsappIcon {
+    background: url('../images/whastapp.png.webp') no-repeat center !important;
+    background-size: 20px !important; /* Box ke hisab se icon adjust karein */
+}
 
+.instagramIcon {
+    background: url('../images/insta.png.webp') no-repeat center !important;
+    background-size: 20px !important;
+}
 .whatsappIcon 
 { line-height: 40px;
 	text-align: center;
