@@ -101,7 +101,7 @@ width:34px;
 height:34px; 
 display: inline-block;
 }
-.twitterIcon, .facebookIcon, .linkedInIcon, .pintrestIcon{
+.twitterIcon, .facebookIcon, .linkedInIcon, .pintrestIcon, .whatsappIcon, .instagramIcon{
 background: url('../images/social-icons.png') -74px 0px;
 }
 .facebookIcon{
@@ -113,7 +113,27 @@ background-position: -245px 0px;
 .pintrestIcon{
 background-position: -331px 0px;
 }
+.whatsappIcon {
+    background: url('../images/whastapp.png.webp') no-repeat center !important;
+    background-size: 20px !important; /* Box ke hisab se icon adjust karein */
+}
 
+.instagramIcon {
+    background: url('../images/insta.png.webp') no-repeat center !important;
+    background-size: 20px !important;
+}
+.whatsappIcon 
+{ line-height: 40px;
+	text-align: center;
+	background-position: -419px 0px;
+ }
+.instagramIcon i {
+	line-height: 40px;
+	text-align: center;
+   background-position: -375px 0px;
+}
+.whatsappIcon:hover { color: #25D366; }
+.instagramIcon:hover { color: #E4405F; }
 #Content h2 {
 margin: 0px 0px 65px 0px;
 padding: 0px;
