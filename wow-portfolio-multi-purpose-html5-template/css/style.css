@@ -2027,3 +2027,6 @@ float: left;
 width: 60px;
 height: auto;
 }
+html {
+  scroll-behavior: smooth !important;
+}
